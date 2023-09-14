@@ -1,0 +1,50 @@
+body {
+  background-image: url("../img/asd.jpg");
+  background-size: cover;
+}
+
+.grid-container {
+  display: grid;
+  column-gap: 15px;
+  grid-template-columns: repeat(3, 30%);
+  background-color: #282929;
+  padding: 10px;
+  margin-top: 100px;
+  min-width: 450px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 10%;
+  min-width: 75px;
+  min-height: 50px;
+}
+
+.grid-item img {
+  width: 60%;
+}
+
+.tooltip .text {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+
+  /*pozicija teksta */
+  position: relative;
+  top: 10%;
+  left: 15%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .text {
+  visibility: visible;
+}

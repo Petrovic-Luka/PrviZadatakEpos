@@ -1,0 +1,26 @@
+body {
+  background: url("../img/bckgMj.jpg") no-repeat;
+  background-size: cover;
+}
+
+form {
+  text-align: center;
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  gap: 2rem;
+  font-size: 2rem;
+  background-color: rgb(209, 203, 203, 0.9);
+  border-radius: 2rem;
+  padding-bottom: 5rem;
+}
+
+input {
+  width: 60%;
+  font-size: 2rem;
+}
+button {
+  font-size: 2rem;
+}
